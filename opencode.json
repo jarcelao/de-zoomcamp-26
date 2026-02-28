@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "dlt": {
+      "type": "local",
+      "command": [
+        "uv",
+        "run",
+        "--with",
+        "dlt[duckdb]",
+        "--with",
+        "dlt-mcp[search]",
+        "python",
+        "-m",
+        "dlt_mcp"
+      ]
+    }
+  }
+}
