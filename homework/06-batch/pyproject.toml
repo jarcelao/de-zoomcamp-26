@@ -1,0 +1,10 @@
+[project]
+name = "06-batch"
+version = "0.1.0"
+description = "uv repo for homework 6"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "marimo[recommended]>=0.20.4",
+    "pyspark[connect]>=4.1.1",
+]
